@@ -2,19 +2,22 @@
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/activity_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
-    android:paddingBottom="@dimen/activity_vertical_margin"
     tools:context="cn.jianke.customannotation.CompileActivity">
 
     <TextView
+        android:id="@+id/tv_compile"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="编译时注解"
         android:textSize="20sp"
         android:layout_centerInParent="true"/>
+    <Button
+        android:id="@+id/btn_compile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/tv_compile"
+        android:text="更改文案"/>
 </RelativeLayout>

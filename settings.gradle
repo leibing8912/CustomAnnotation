@@ -1,1 +1,1 @@
-include ':app'
+include ':app', ':proxytool-annotations', ':proxytool-api', ':proxytool-compiler'

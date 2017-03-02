@@ -4,6 +4,9 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/CustomAnnotation.iml" filepath="$PROJECT_DIR$/CustomAnnotation.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/proxytool-annotations/proxytool-annotations.iml" filepath="$PROJECT_DIR$/proxytool-annotations/proxytool-annotations.iml" />
+      <module fileurl="file://$PROJECT_DIR$/proxytool-api/proxytool-api.iml" filepath="$PROJECT_DIR$/proxytool-api/proxytool-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/proxytool-compiler/proxytool-compiler.iml" filepath="$PROJECT_DIR$/proxytool-compiler/proxytool-compiler.iml" />
     </modules>
   </component>
 </project>
